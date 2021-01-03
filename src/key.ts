@@ -1,0 +1,10 @@
+export const HASH_LENGTH = 32;
+export const SIGNATURE_LENGTH = 64;
+export type NULL_HASH = Buffer;
+export type IHash = Buffer;
+export type IKey = IHash;
+export type IPublicKey = IHash;
+export type IPrivateKey = IHash;
+export type IKeyDerivation = IHash;
+export type IKeyImage = IHash;
+export type ISignature = IHash;
