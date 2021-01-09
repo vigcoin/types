@@ -1,5 +1,7 @@
-import { uint16, uint32, uint64, uint8, usize } from './basic';
-import { IHash, IKeyImage, IPublicKey, ISignature } from './key';
+export * from "./extra";
+
+import { uint16, uint32, uint64, uint8, usize } from "../basic";
+import { IHash, IKeyImage, IPublicKey, ISignature } from "../key";
 
 // Input Transactions
 export interface IInputBase {
@@ -41,7 +43,7 @@ export interface ITransactionOutput {
 export enum ETransactionIOType {
   BASE = 0xff,
   KEY = 0x02,
-  SIGNATURE = 0x03,
+  SIGNATURE = 0x03
 }
 
 export interface ITransactionInput {
