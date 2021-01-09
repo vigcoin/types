@@ -1,5 +1,5 @@
-import { usize } from "../basic";
-import { IPublicKey } from "../key";
+import { usize } from '../basic';
+import { IPublicKey } from '../key';
 
 export const TX_EXTRA_PADDING_MAX_COUNT = 255;
 export const TX_EXTRA_NONCE_MAX_COUNT = 255;
